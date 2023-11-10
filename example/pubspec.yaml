@@ -29,6 +29,10 @@ dependency_overrides:
     path: ../flutter_quill_extensions
   flutter_quill_test:
     path: ../flutter_quill_test
+  flutter_math_fork:
+    git:
+      url: git@github.com:obiwanzenobi/flutter_math_fork.git
+      ref: e8c4d1b33167921b1a2eeea86808d7a7e88eddbb
 
 dev_dependencies:
   flutter_lints: ^3.0.1
@@ -54,7 +58,7 @@ flutter:
         - asset: assets/fonts/SansSerif.ttf
     - family: ibarra-real-nova
       fonts:
-          - asset: assets/fonts/IbarraRealNova-Regular.ttf
+        - asset: assets/fonts/IbarraRealNova-Regular.ttf
     - family: square-peg
       fonts:
         - asset: assets/fonts/SquarePeg-Regular.ttf

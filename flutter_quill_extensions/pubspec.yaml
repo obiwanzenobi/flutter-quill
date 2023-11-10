@@ -47,5 +47,11 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.1
 
+dependency_overrides:
+ flutter_math_fork:
+   git:
+     url: git@github.com:obiwanzenobi/flutter_math_fork.git
+     ref: e8c4d1b33167921b1a2eeea86808d7a7e88eddbb
+
 flutter:
   uses-material-design: true
